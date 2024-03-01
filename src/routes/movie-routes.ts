@@ -15,3 +15,4 @@ const movieController = new MovieController(
 
 //Implementação das rotas
 movieRouter.get('/movies', movieController.getMovie)
+movieRouter.post('/movies', movieController.createMovie)
